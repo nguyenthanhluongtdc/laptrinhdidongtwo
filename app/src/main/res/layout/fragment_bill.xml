@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       />
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/btnListBill"
+       android:text="hoadon"
+       />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtCodeBill"
+       android:hint="@string/txtCodeBill"
+       style="@style/txt"
+       />
+   <EditText
+       android:id="@+id/txtCodeCustomer"
+       android:hint="@string/txtCustomer"
+       style="@style/txt"
+      />
+   <EditText
+       android:id="@+id/txtDateBill"
+       android:hint="@string/dateBill"
+       style="@style/txt"
+      />
+   <EditText
+       android:id="@+id/txtTotalMoney"
+       android:hint="@string/txtTotalMoney"
+       style="@style/txt"
+       />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center"
+       android:layout_margin="10dp"
+       >
+
+      <Button
+          android:id="@+id/btnSave"
+          android:text="@string/btnSave"
+          style="@style/btn"
+          android:drawableLeft="@drawable/ic_save_black_24dp"
+          />
+      <Button
+          android:id="@+id/btnClear"
+          android:text="@string/btnClear"
+          style="@style/btn"
+          android:drawableLeft="@drawable/ic_clear_all_black_24dp"
+          />
+      <Button
+          android:id="@+id/btnPrint"
+          android:text="@string/btnPrint"
+          style="@style/btn"
+          android:drawableLeft="@drawable/ic_print_black_24dp"
+         />
+      <Button
+          android:id="@+id/btnExit"
+          android:text="@string/btnExit"
+          style="@style/btn"
+          android:drawableLeft="@drawable/ic_exit_to_app_black_24dp"
+         />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+      >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/tvSelectedProduct"
+          android:textSize="25sp"
+          android:layout_marginLeft="20dp"
+          />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/btnChoose"
+          android:text="@string/btnChoose"
+          android:layout_marginLeft="62dp"
+          android:drawableLeft="@drawable/ic_sync_black_24dp"
+          />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+      >
+      <androidx.recyclerview.widget.RecyclerView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/rcvListBill"
+          />
+
+   </LinearLayout>
+
+
+
+</LinearLayout>

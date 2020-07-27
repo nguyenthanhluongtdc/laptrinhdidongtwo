@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Product Ordering Management </string>
+    <string name="txtCodeBill">Enter the bill code </string>
+    <string name="txtCustomer">Enter the customer code </string>
+    <string name="dateBill">Enter the billing date </string>
+    <string name="txtTotalMoney">Total money</string>
+    <string name="btnSave">Save</string>
+    <string name="btnClear">Clear</string>
+    <string name="btnPrint">Print</string>
+    <string name="btnExit">Exit</string>
+    <string name="btnChoose">Choose</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="tvSelectedProduct">Selected product</string>
+    <string name="tvInsertProduct">Insert Product</string>
+    <string name="tvListBill">List Bill</string>
+</resources>
